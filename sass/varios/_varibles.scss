@@ -16,3 +16,23 @@ $large: 5.2em;
 $medium: 2.2em;
 $small: 1.2em;
 
+/*map-get titulos*/
+$titulos: (
+    h1: 3rem,
+    h2: 2rem,
+    h3:1.5rem,
+);
+$h1: map-get($titulos,h1);
+$h2: map-get($titulos,h2);
+$h3: map-get($titulos,h3);
+
+.btn{
+    width: 200px;
+    height: 50p;
+    background-color: grey;
+    text-align: center;
+    color: blue;
+    border-radius: 15px;
+    border: 1px solid blue;
+    box-shadow: black;
+}

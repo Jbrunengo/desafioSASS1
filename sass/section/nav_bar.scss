@@ -1,0 +1,17 @@
+.nav_bar{
+        font-size: $small;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style: none;
+        }
+        ul li{
+            @extend .btn;
+            background-color: $fondotitulo;
+            color: #000;
+            border: 1px black;
+            box-shadow: 10px 2px grey;        
+        }         
+    }
+
